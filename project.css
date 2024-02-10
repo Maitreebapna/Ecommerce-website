@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav {
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search {
+    float: left;
+    margin-left: 20px;
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(13, 7, 2);
+    color: #ca4343;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user {
+    float: right;
+    margin-top: 10px;
+}
+
+.user a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main */
+main {
+    padding: 20px 0;
+}
+
+#hero {
+    background-color: rgb(12, 6, 1);
+    color: #e3454a;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#featured {
+    background-color: #130202;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#featured h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0202;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
